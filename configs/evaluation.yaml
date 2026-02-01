@@ -1,0 +1,21 @@
+# Evaluation Configuration
+input_video: "data/test_video.mp4"
+output_dir: "results"
+
+# Methods to evaluate
+methods:
+  - "optical_flow"
+  - "homography"
+  - "deep"
+
+# Metrics to calculate
+metrics:
+  - "psnr"
+  - "ssim"
+  - "temporal_consistency"
+  - "stabilization_quality"
+
+# Output settings
+save_comparison_video: true
+save_metrics_csv: true
+create_visualization: true

@@ -1,0 +1,19 @@
+# Optical Flow Stabilization Configuration
+method: "optical_flow"
+
+# Optical flow parameters
+pyr_scale: 0.5
+levels: 3
+winsize: 15
+iterations: 3
+poly_n: 5
+poly_sigma: 1.2
+flags: 0
+
+# Video processing
+device: null  # auto-detect
+batch_size: 1
+
+# Output settings
+save_intermediate: false
+output_format: "mp4"

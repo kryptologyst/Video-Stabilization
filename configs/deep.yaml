@@ -1,0 +1,20 @@
+# Deep Learning Stabilization Configuration
+method: "deep"
+
+# Model parameters
+input_channels: 6
+hidden_dim: 256
+checkpoint_path: null
+
+# Training parameters (if training)
+learning_rate: 0.001
+batch_size: 8
+num_epochs: 100
+weight_decay: 1e-4
+
+# Video processing
+device: null  # auto-detect
+
+# Output settings
+save_intermediate: false
+output_format: "mp4"

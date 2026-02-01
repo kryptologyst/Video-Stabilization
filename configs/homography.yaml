@@ -1,0 +1,14 @@
+# Homography Stabilization Configuration
+method: "homography"
+
+# Feature detection parameters
+nfeatures: 1000
+ransac_threshold: 5.0
+
+# Video processing
+device: null  # auto-detect
+batch_size: 1
+
+# Output settings
+save_intermediate: false
+output_format: "mp4"
